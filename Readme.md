@@ -14,4 +14,7 @@ This is my 7th Template and now I am moving towards more perfection
 - This project tooks my 4 hrs ...
 
 
-![First_Project](./preview.png)
+![7th_Project](./preview.png)
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a1d230d3-a25b-4b17-891e-97eb1b313980/deploy-status)](https://rohankaushik7thproject.netlify.app/)
