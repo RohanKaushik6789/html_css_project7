@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+header{
+    display: flex;
+    border: 2px solid ;
+    height: 259px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(43, 44, 34);
+
+}
+
+
+ul{
+    list-style-type: none;
+    margin-left: 110px;
+    margin-top: 30px;
+    
+}
+ li{
+    display: inline;
+    margin-left: 30px;
+    
+    color: rgb(163,161,153);
+    font-size: 18px;
+    font-family:Ubuntu ;
+ }
+
+img{
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 110px;
+    
+}
+button{
+    height: 35px;
+    width: 120px;
+    background-color: transparent;
+    color: #a08f36;
+    border: 1.5px solid #a08f36;
+    border-radius: 10px;
+
+}
+h1{
+    color: rgb(241,240,239);
+    font-family: Ubuntu;
+    font-size: 59px ;
+}
+
+header div:nth-child(2){
+
+    flex-basis: 40%;
+}
+header div:nth-child(1){
+    flex-basis: 31%;
+}
+
+header div:nth-child(3){
+    flex-basis: 28%;
+    margin-top: 26px;
+
+}
+header div:nth-child(4){
+flex-basis: 30%;
+position: relative;
+left: -40px; 
+
+}
+header div:nth-child(5){
+    flex-basis: 30%;
+    position: relative;
+    top: 20px;
+    left: -210px;
+}
+
+p{
+    color:rgb(231,230,228)
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;  
+    background-color: rgb(43, 44, 34);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+
+}
+
+footer div:nth-child(1){
+    border: 1px solid;
+    height: 60px;
+    width: 60px;
+    background-color:  rgb(160,143,54);
+
+    
+    
+}
+
+footer div:nth-child(2){
+    border: 1px solid;
+    height: 60px;
+    width: 60px; 
+    background-color: rgb(57,55,45);  
+    
+
+}
+
+
+.fa-solid.fa-greater-than{
+    border: 1px solid;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 10px;
+    left:10px;
+    color: white;
+    padding-top: 11px;
+    padding-left: 14px;
+    
+}
+.fa-solid.fa-less-than{
+    border: 1px solid;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 10px;
+    left:10px;
+    color: rgb(160,143,54);
+    padding-top: 11px;
+    padding-left: 12px;
+
+}
+
+
+
+
